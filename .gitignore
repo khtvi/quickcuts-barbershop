@@ -1,0 +1,22 @@
+# Dependency directories
+node_modules/
+
+# Environment variables (MUST NOT BE COMMITTED)
+.env
+
+# SQLite databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Exam images / artifacts
+page-*.jpg
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS metadata
+Thumbs.db
+.DS_Store

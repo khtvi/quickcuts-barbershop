@@ -1,0 +1,24 @@
+{
+  "name": "quickcuts-barbershop-api",
+  "version": "1.0.0",
+  "description": "Midterm Practical Exam - QuickCuts Barbershop Queue API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "express",
+    "sqlite3",
+    "queue-api",
+    "barbershop"
+  ],
+  "author": "Student",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "sqlite3": "^5.1.7"
+  }
+}
